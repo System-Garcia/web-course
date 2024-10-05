@@ -1,0 +1,13 @@
+.flex-container {
+    padding: 10px;
+    box-sizing: border-box;
+    height: 500px;
+    /* display: flex; el eje principal por defecto es row osea horizontal */
+    /* flex-direction: column-reverse; Eje principal es vertical */
+    /* align-items: end; Eje secundario trabaja en horizontal */
+}
+
+.flex-item {
+    height: 100px;
+    width: 100px;
+}

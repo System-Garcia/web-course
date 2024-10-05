@@ -2,35 +2,38 @@
 <html lang="en">
 
 <head>
+<!-- Metadatos y enlaces a hojas de estilo -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="description" content="Business landing page for showcasing the best products with Figma. Slate is designed for freelancers and offers easy-to-use features for fast prototyping."> -->
     <title>Business landing page</title>
+    <!-- <link rel="icon" href="./images/favicon.ico" type="image/x-icon"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
         integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="./styles.css">
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> <!-- Normalización CSS -->
+    <link rel="stylesheet" href="./styles.css"> <!-- Estilos personalizados -->
 </head>
 
 <body>
-    <div class="hero">
-
+    <!-- Sección principal: Hero -->
+    <section class="hero" id="hero"> 
         <div class="hero__container">
-
+            <!-- Header con navegación y logotipo -->
             <header class="header">
                 <nav class="navbar">
                     <ul class="navbar__list">
                         <li class="navbar__item"><a href="#">Home</a></li>
                         <li class="navbar__item"><a href="#">Product</a></li>
-                        <li class="navbar__item"><a href="#">Princing</a></li>
+                        <li class="navbar__item"><a href="#">Pricing</a></li>
                         <li class="navbar__item"><a href="#">About</a></li>
                         <li class="navbar__item"><a href="#">Contact</a></li>
                     </ul>
                 </nav>
-
+                <!-- Logotipo -->
                 <div class="navbar__logo">
                     <img src="./images/logo.svg" alt="logo">
                 </div>
-
+                <!-- Iconos de redes sociales -->
                 <div class="navbar__social">
                     <a href="" class="social">
                         <img src="./images/icons/twitter_icon.svg" alt="twitter" height="42" width="42">
@@ -43,16 +46,107 @@
                     </a>
                 </div>
             </header>
-
+            <!-- Contenido principal del Hero -->
             <div class="hero__content">
                 <h1 class="hero__title">The best products start with Figma</h1>
                 <p class="hero__description">Most clendars are designed for teams. Slate is designed for freelancers</p>
                 <button class="hero__button">Try For Free</button>
             </div>
+        </div>
+    </section>
+    <!-- Sección de características (Features) -->
+    <section class="features">
+        <div class="features__description">
+            <h2 class="features__description__title">Features</h2>
+            <p class="features__description__paragraph">Most calendars are designed for teams. Slate is designed for freelancers</p>
+        </div>
+        <!-- Lista de características e integración de video -->
+        <div class="">
+            <div class="features__list">
+                <div class="feautures__item">
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="feautures__item">
+                    <img src="">
+                    <h3></h3>
+                    <p></p>
+                </div>
+                <div class="feautures__item">
+                    <img src="" alt="">
+                    <h3></h3>
+                    <p></p>
+                </div>
+            </div>
+            <div>
+                <!-- Video -->
+                <video src="" controls autoplay muted loop></video>
+            </div>
 
         </div>
+    </section>
+    <!-- Sección de información lateral -->
+    <section class="information">
+        <div class="information__lateral">
+            <h2 class="information__lateral___title">Fastest way to organize</h2>
+            <h4 class="information__lateral__paragraph">Most calendars are designed for teams. Slate is designed for freelancers</h4>
+            <button class="information__lateral__cta">Try For Free</button>
+        </div>
+        <div class="information__image">
+            <img src="" alt="">
+        </div>
+    </section>
+    <!-- Sección de Newsletter -->
+    <section class="newsletter">
+        <p class="newsletter__fingertips">At your fingertips</p>
+        <h2>Lightning fast prototyping</h2>
+        <h3>Subscribe to our Newsletter</h3>
+        <p>Available exclusivery on Figmaland</p>
+        <form class="newsletter__actions" action="/suscribe" method="POST">
+            <input type="email" class="newsletter__actions__email" alt="Your email">
+            <button class="newsletter__actions_suscribe">Suscribe</button>
+        </form>
+    </section>
+    <!-- Sección de socios o Partners --> 
+    <section class="partners">
+        <div class="partners__description">
+            <h2 class="partners_description__title">Partners</h2>
+            <p class="partners_description__paragraph"></p>
+        </div>
+        <div class="partners__clients">
+            <div class="partners__clients">
+                <div class="partners__clients__column"></div>
+                <div class="partners__clients__column"></div>
+                <div class="partners__clients__column"></div>
+                <div class="partners__clients__column"></div>
+            </div>
+        </div>
+        <button class="">Try for free</button>
+    </section>
+    <!-- Sección de testimonios -->
+    <section class="testimonials">
+        <img class="testimonials__image">
+        <img class="testimonials__paragraph">
+        <div class="testimonials__subject">
+            <img src="" alt="">
+            <h4 class="testimonials__subject__name"></h4>
+            <p class="testimonials__subject__job"></p>
+        </div>
+        <button class="testimonials__button"></button>
+    </section>
+    <!-- Sección de precios o Pricing -->
+    <section class="pricing">
+        <h2 class="pricing__title"></h2>
+        <p class="pricing__paragraph"></p>
+        <div class="pricing__packs">
 
-    </div>
+        </div>
+    </section>
+    <!-- Sección de contacto -->
+    <section class="contact">
+        div.
+    </section>
 </body>
 
 </html>
