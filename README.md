@@ -1,0 +1,2 @@
+## This repository is created for the introduction of student to the frontend of websites, using html, css and git.
+### With an overview of concepts and creating a website taking as a reference a figma design.
